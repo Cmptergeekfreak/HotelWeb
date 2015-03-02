@@ -1,0 +1,311 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 16, 2015, 5:35:19 PM
+    Author     : Owner
+*/
+
+body {
+   background: url(../images/tropical_swimming.jpg) no-repeat center center fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 80%;
+   height: 80%;
+   font-family: Verdana, Arial, sans-serif;
+   font-size: smaller;
+   color: #555;
+   
+}
+label{
+    font-size: 22px;
+    background: green;
+    color: yellow;
+}
+
+fieldset {
+    padding: 20px 0;
+    width: 600px;
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+legend {
+    display: block;
+    width: 100%;
+/*    background: black;*/
+    color: white;
+    alignment-adjust: center;
+}
+
+label, span{
+    background-position: Center;
+    float:left;
+    width: 150px;
+    font-size: 16px
+    
+}
+
+input {
+    width: 120px; 
+    alignment-adjust: center;
+}
+
+
+br {
+    clear: both;   
+}
+
+
+
+navbar-header{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 22px;
+}
+
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+table {
+    width:50%;
+    color: black;
+    text-align:center; 
+    vertical-align:right;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+   position: relative;
+   float: left;
+   left: 1.00%;
+   width: 51.00%;
+   background-color: #ccccff
+}
+.right{
+   position: relative;
+   float: right;
+   right: 1.00%;
+   width: 46.00%;
+   background-color: #ccccff
+}
+
+h1 {
+   font-family:Arial, sans-serif;
+   text-align: left;
+   letter-spacing: 6px;
+   
+   color: red;
+   
+}
+
+h2 {
+   font-family:Arial, sans-serif;
+   text-align: left;
+   letter-spacing: 6px;
+   font-size: 1.4em;
+   color: red;
+   font-weight: normal;
+   width: 450px;
+}
+
+h3{
+   font-family:Arial, sans-serif;
+   text-align: left;
+   letter-spacing: 6px;
+   font-size: 1.4em;
+   color: #be7429;
+   font-weight: normal;
+   width: 450px;
+}
+
+h4{
+   font-family:Arial, sans-serif;
+   text-align: left;
+   letter-spacing: 6px;
+   font-size: 1.4em;
+   color: #be7429;
+   font-weight: normal;
+   width: 450px;
+}
+
+td1{
+   font-family:Arial, sans-serif;
+   text-align: left;
+   letter-spacing: 4px;
+   font-size: 1.4em;
+   color: black;
+   font-weight: normal;
+   width: 450px; 
+}
+
+
+#deleteBtn{
+    margin-left:auto;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+
+#deleteBtn:hover{
+    background-color: #ddd;        
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');
+}
+
+#deleteBtn:before{
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;        
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;   
+    content: "\2718";        
+}
+#clearBtn{
+    margin-left:auto;
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+#clearBtn:hover{
+    background-color: #ddd;        
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd'); 
+}
+#clearBtn:before{
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;        
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;   
+    content: "\2718"; 
+}
+#updateBtn{
+    margin-left:auto;
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+#updateBtn:hover{
+    background-color: #ddd;        
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');      
+}
+
+#updateBtn:before{
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;        
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;
+    content: "\2714";
+}
+#insertBtn {
+    width:125px; /* some fixed width */
+    margin-left: 192px;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    
+}
+#insertBtn:focus{
+    
+    outline: 0;
+    background: #fafafa;
+}
+#insertBtn:hover{
+    background-color: #ddd;        
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd'); 
+}
+#insertBtn:before {
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;        
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none; 
+    content: "\271A";
+}
+
+tbody {
+    font-size: 16;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: normal;
+    background: green;
+    color: yellow;
+}
+
